@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(164, 119, 119);
+    position: relative;
+}
+
+#target {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    cursor: pointer;
+}
+
+#score {
+    font-style: italic;
+    font-size: 26px;
+    padding: 10px;
+}   
