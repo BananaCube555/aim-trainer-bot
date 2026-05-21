@@ -7,10 +7,10 @@ scoreDisplay.textContent = "Score: " + score;
 
 function MoveTarget() {
     target.style.left =
-        Math.random() * (window.innerWidth - 75) + "px";
+        Math.random() * (window.innerWidth - 80) + "px";
 
     target.style.top =
-        Math.random() * (window.innerHeight - 75) + "px";
+        Math.random() * (window.innerHeight - 80) + "px";
 }
 
 MoveTarget();
@@ -24,3 +24,4 @@ target.addEventListener("click", function () {
     MoveTarget();
     AddScore();
 });
+
